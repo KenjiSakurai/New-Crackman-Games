@@ -1,0 +1,579 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#subbody{
+    width: 70vw;
+    float: left;
+}
+
+/* Reklam */
+
+.reklam{
+    background-color: lightgray;
+    width: 14.4vw;
+    float: left;
+}
+
+.adimg{
+    margin: 0.2vw 0.2vw;
+    width: 14vw;
+    height: 50vw;
+}
+
+/* Header */
+
+header{
+    background-color: #FFBF00;
+    width: 70vw;
+    height: 5vw;
+}
+
+#ccglogo{
+    width: 35vw;
+    height: 5vw;
+}
+
+#ccglogo:hover{
+    cursor: pointer;
+}
+
+.navbtn{
+    background-color: #FFBF00;
+    width: 10vw;
+    height: 5vw;
+    float: right;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.navbtnpara{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.navbtn:hover{
+    background-color: #c59400;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Slideshow */
+
+#featured{
+    background-color: rgb(39, 39, 39);
+    width: 70vw;
+    height: 30vw;
+}
+
+/* Game Section */
+
+#gamebar{
+    background-color: #FFBF00;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0;
+}
+
+#gamecon{
+    background-color: navy;
+    width: 70vw;
+    height: 95vw;
+}
+
+.game, .gameimg, .gamescore, .gamename, .gamesynopsis{
+    float: left;
+}
+
+.game{
+    background-color: #FFFFED;
+    width: 27.5vw;
+    height: 15vw;
+    margin: 5vw 0 0 5vw;
+}
+
+.gameimg{
+    width: 10vw;
+    height: 15vw;
+}
+
+.gameimg:hover{
+    cursor: pointer;
+}
+
+.gamescore{
+    background-color: brown;
+    width: 5vw;
+    height: 5vw;
+}
+
+.gamename{
+    background-color: orange;
+    width: 12.5vw;
+    height: 5vw;
+}
+
+.gamepara{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.scorepara{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.gamesynopsis{
+    background-color: cadetblue;
+    width: 17.5vw;
+    height: 10vw;
+}
+
+.synopsispara{
+    padding: 0.25vw;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+/* Footer */
+
+footer{
+    background-color:#FFBF00;
+    width: 70vw;
+    height: 20vw;
+}
+
+.footicons{
+    width: 5vw;
+    height: 5vw;
+}
+
+#footcenter{
+    padding: 7.5vw 0 0 27.5vw;
+}
+
+#foottext{
+    font-size: 1vw;
+}
+
+/* About us */
+
+#about{
+    background-color: whitesmoke;
+    width: 70vw;
+    height: 25vw;
+}
+
+#aboutpara{
+    border: black solid 0.25vw;
+    padding: 3vw;
+    font-size: 1.5vw;
+}
+
+
+
+/* Game Site */
+
+.gpimg, .gptitle, .gpinfo, .gpscore, .gpsynopsis{
+    float: left;
+}
+
+.gpdiv{
+    background-color: aqua;
+    width: 70vw;
+    height: 30vw;
+}
+
+.gpimg{
+    width: 20vw;
+    height: 30vw;
+}
+
+.gpscore{
+    border: 0.25vw solid black;
+    width: 10vw;
+    height: 10vw;
+}
+
+#gpgood{
+    background-color: green;
+}
+
+#gpmid{
+    background-color: yellow;
+}
+
+#gpbad{
+    background-color: red;
+}
+
+.gpscorepara{
+    color: black;
+    font-size: 5vw;
+    margin-top: 1.25vw;
+    text-align: center;
+}
+
+.gpinfo{
+    border: 0.25vw solid black;
+    background-color:lightyellow;
+    width: 40vw;
+    height: 5vw;
+}
+
+.gptitle{
+    border: 0.25vw solid black;
+    background-color:lightpink;
+    width: 40vw;
+    height: 5vw;
+}
+
+.gptext{
+    margin: 0.75vw 1vw;
+    font-size: 2vw;
+    float: left;
+}
+
+.gpsynopsis{    
+    background-color: honeydew;
+    border: 0.25vw solid black;
+    width: 50vw;
+    height: 20vw;
+    font-size: 1vw;
+}
+
+.gpsynopsistext{
+    padding: 3vw;
+}
+
+.point{
+    cursor: pointer;
+}
+
+#revcontainer{
+    background-color: navy;
+    width: 70vw;
+    height: 76vw;
+
+}
+
+.rev, .avatar, .usernamediv, .ratingdiv, .reviewdiv{
+    float: left;
+}
+
+.rev{
+    background-color: goldenrod;
+    margin: 5vw 0 0 5vw;
+    width: 27.5vw;
+    height: 17.5vw;
+}
+
+.avatar{
+    border: 0.25vw black solid;
+    background-color: black;
+    width: 5vw;
+    height: 5vw;
+}
+
+.usernamediv{
+    border: 0.25vw black solid;
+    background-color: lightyellow;
+    width: 17.5vw;
+    height: 5vw;
+}
+
+.username, .rating{
+    color: black;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.ratingdiv{
+    border: 0.25vw black solid;
+    width: 5vw;
+    height: 5vw;
+}   
+
+.reviewdiv{
+    border: 0.25vw black solid;
+    background-color: #FFBF00;
+    width: 27.5vw;
+    height: 12.5vw;
+}
+
+.userreview{
+    padding: 2vw;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+/* header
+{
+    background-color: #FFBF00;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    background-color: #FFBF00;
+    height: 90px;
+    padding: 5px;
+    width: 750px;
+    float: left;
+}
+
+.navbtn{
+    height: 50px;
+    width: 10%;
+    border: 5px solid black;
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:10px;
+    font-size: 170%;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+
+.navbtn:hover{
+    background-color: blue;
+}
+.adleft{
+    float: left;
+}
+.adleft, .adright
+{
+    width:13%;
+    margin: 0.5%;
+    height: auto;
+    border-color:black;
+    border-style: solid;
+    border-width: 0.5%;
+}
+
+.adright
+{
+float: right;
+
+}
+
+#gamebar{
+    background-color: sandybrown;
+    border: black solid 2.5px;
+    text-align: center;
+    width: 70%;
+    height: 20px;
+    margin: 10px 15% 10px 15%;
+}
+
+Game previews
+
+.prename, .prescore, .preimg, .presynopsis{
+    border: solid black 2.5px;
+}
+
+#reviewcontainer{   
+    width: 70%;
+    height: 90em;
+    background-color: gray;
+    margin:0 auto;
+}
+
+.preview{
+    margin:10px;
+    margin-left: 3%;
+    width: 45%;
+    height: 20%;
+    float:left;
+    background-color: green;
+}
+
+.preimg{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.prescore{
+    background-color: seagreen;
+    float: left;
+    height: 50px;
+    width: 10%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.prename{
+    background-color: yellowgreen;
+    float: left;
+    height: 50px;
+    width:50%;
+    font-size: 150%;
+    text-align: center;
+    color:white;
+}
+
+.presynopsis{
+    background-color: #FFBF00;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.pretitle{
+    padding-top: 10px;
+}
+
+.loader-wrapper { /*Loading screen
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFBF00;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid black;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+#mediarow{
+    background-color: #FFBF00;
+    padding-top: 75px;  
+}
+.mediaicons{
+    width: 100px;
+    height: 100px;
+}
+
+#kenjifooter{
+    background-color:#FFBF00;
+    width: 70%;
+    height: 250px;
+    margin-left:15%;
+    float:left;
+}
+
+.center{
+    margin: auto;
+    width: 310px;
+    padding: 10px;
+}
+
+
+
+/* slideshow 
+
+#slideshow{
+    width: 70%;
+    height: 50vh;
+    margin: 7.5px 0 0 15%;
+    background-color: steelblue;
+    border: black solid 2.5px;
+}
+
+#featured{
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+#featuredimg{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}
+
+
+.featbtn{
+    height: 100%;
+    width: 10%;
+    background-color: blue;
+    float: left;
+}
+
+.featbtn:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+
+#pre1{
+    cursor: pointer;
+}
+
+#footertext{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+@media screen {
+    
+}
+
+
+
+
+#maininfo
+{
+padding:5%;
+height:20em;
+border:black solid 4px;
+background-color:#FFBF00;
+margin-top:10%;
+margin-left:14.6%;
+margin-right:10%;
+width:60%;
+}
+#headinfo
+{
+margin-left:45%;
+margin-bottom:-5%;
+margin-top:2%;
+}
+#breadinfo
+{
+font-size:x-large;
+} */
